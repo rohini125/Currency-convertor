@@ -1,0 +1,69 @@
+/* heights and widths */
+
+.h-screen{
+    height:100vh;      /* vh = vertical height */
+}
+
+.h-50{
+    height:50%;
+}
+
+.w-screen{
+    width:100vw;      /* vw = vertical width */
+}
+
+.w-50{
+    width: 50% ;
+}
+
+/* flex */
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}               
+/* by default flex direction is row so it can not be define */
+
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+
+.items-center{
+    align-items: center;
+}
+.gat-1{
+    gap:10px;          /* nothing but the space between flex items */
+}
+.gat-2{
+    gap:20px;          
+}
+.gat-3{
+    gap:30px;          
+}
+
+/* margins and paddings */
+
+.m-1{
+    margin: 10px;
+}
+.m-2{
+    margin: 20px;
+}
+.m-3{
+    margin: 30px;
+}
+
+.p-1{
+    padding: 10px;
+}
+.p-2{
+    padding: 20px;
+}
+.p-3{
+    padding: 30px;
+}
