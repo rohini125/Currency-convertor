@@ -3,12 +3,15 @@ import './stylesheets/custom-components.css'
 import './stylesheets/form-elements.css'
 import './stylesheets/text-elements.css'
 import './stylesheets/theme.css'
+import Login from "./pages/Login"
+import Register from "./pages/Register"
 
 function App() {
   return (
-    <div>
-      <h1>Hii...</h1>
-    </div>
+   <>
+     <Login/>
+     <Register/>
+   </>
   );
 }
 
